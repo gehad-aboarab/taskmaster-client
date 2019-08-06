@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_completeTask"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:showAsAction="always"
+        android:title="Complete Task" />
+
+    <item
+        android:id="@+id/menu_restoreTask"
+        android:icon="@android:drawable/checkbox_off_background"
+        android:showAsAction="always"
+        android:title="Restore Task" />
+</menu>

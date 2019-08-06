@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gehad.taskmaster.fragments.HomeActivity">
+    <item
+        android:id="@+id/menu_addProject"
+        android:title="Add Project" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Log out" />
+</menu>

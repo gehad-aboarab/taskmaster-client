@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <array name="sectionColours">
+        <item name="red">#c70c0c</item>
+        <item name="orange">#f88d43</item>
+        <item name="yellow">#fcda60</item>
+        <item name="lime">#40cf99</item>
+        <item name="green">#6cc932</item>
+        <item name="teal">#0e9ba7</item>
+        <item name="blue">#00C3fd</item>
+        <item name="purple">#aa81f8</item>
+        <item name="gray">#b2b2b2</item>
+    </array>
+</resources>

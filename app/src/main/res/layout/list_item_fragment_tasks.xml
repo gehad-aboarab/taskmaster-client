@@ -1,0 +1,59 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/round_bg"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home_listItemTaskProjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Project name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/home_listItemTaskName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="TASK NAME"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/home_listItemTaskDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/calendar_1_20x20"
+                android:fontFamily="sans-serif-condensed"
+                android:text="  task date" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/home_listItemTaskAssignee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/assignee_bg"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="?"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>

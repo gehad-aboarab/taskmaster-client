@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+
+    <string name="connectionError">There was a problem connecting to the server, please try again later.</string>
+
+    <!-- Main page -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_loginButton">Log in</string>
+    <string name="main_registerButton">Register</string>
+
+    <!-- Login page -->
+    <string name="promptEmail">Email</string>
+    <string name="promptPassword">Password</string>
+    <string name="login_loginButton">Log in</string>
+    <string name="login_registerLink">Not registered yet? Register now.</string>
+    <string name="loginError_requiredEmail">The email field is required.</string>
+    <string name="loginError_requiredPassword">The password field is required.</string>
+    <string name="loginError_invalidEmail">This email address is invalid.</string>
+    <string name="loginError_shortPassword">This password is too short.</string>
+    <string name="loginError_incorrectCredentials">You have entered an invalid email or password.</string>
+    <string name="title_activity_login">Log in</string>
+
+    <!-- Register page -->
+    <string name="promptName">Name</string>
+    <string name="register_registerButton">Register</string>
+    <string name="register_loginLink">Already registered? Log in now.</string>
+    <string name="registerError_requiredEmail">The email field is required.</string>
+    <string name="registerError_requiredPassword">The password field is required.</string>
+    <string name="registerError_invalidEmail">This email address is invalid.</string>
+    <string name="registerError_shortPassword">This password is too short.</string>
+    <string name="registerError_emailExists">This email address is already registered!</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_project_sections">ProjectSectionsActivity</string>
+    <string name="title_activity_filter_dialog">FilterDialogActivity</string>
+</resources>
