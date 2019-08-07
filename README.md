@@ -1,6 +1,11 @@
 # TaskMaster
 Android application that allows users to manage their tasks for different projects. Tasks can be assigned to different members within group projects, and the application allows for easy and user-friendly management of tasks.
 
+## Important
+Pre-requisites to successfully running the application is to run the TaskMaster server: https://github.com/gehad-aboarab/taskmaster-server 
+This server handles communication with the local database (SQL Dump found in a file wihin the server respository).
+
+
 ## Functionalities
 -	Creating new projects
 -	Editing project information
@@ -36,3 +41,5 @@ Android application that allows users to manage their tasks for different projec
   c.	Delete project: allows the user to delete the current project.
 9.	From the Home page, if the user selects one of their assigned tasks from the second fragment, the task’s information will be displayed and can edited and saved, or deleted.
 10.	From the Home page, the user can also accept or decline the invitations they receive from other users that are displayed on the third fragment. 
+
+Screenshots, documentation and demo of the application can be found at: https://drive.google.com/open?id=1kzURFlaIptY6pvZ4PyHmBzYXX4Voq17J
