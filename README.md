@@ -1,5 +1,7 @@
 # TaskMaster
-Android application that allows users to manage their tasks for different projects. Tasks can be assigned to different members within group projects, and the application allows for easy and user-friendly management of tasks.
+This application is an attempt at replicating MeisterTask for academic purposes. It provides some of the functionalities that MeisterTask provides, such as creating new projects, creating new categories within a project, and creating tasks. A user can invite members to their project, and can assign them tasks when they are a part of the project. Tasks can have due dates as well as short descriptions, and they can be completed and uncompleted at any given point. The user can also delete and edit tasks, categories, or projects. Additionally, the user can move tasks between different categories of the same project.
+
+TaskMaster was built as a client android application that runs on Android devices. It communicates with a server Java application that feeds the client the requested information from a local MySQL database. The client uses HTTP requests to access the server's exposed services through RESTful API. This architecture provides for a loosely-coupled system that can be expanded upon, and allows for data to be separated from the client's device.
 
 ## Important
 Pre-requisites to successfully running the application is to run the TaskMaster server: https://github.com/gehad-aboarab/taskmaster-server 
